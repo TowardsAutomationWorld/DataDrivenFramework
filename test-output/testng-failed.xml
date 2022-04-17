@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Data Driven Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Data Driven Test(failed)">
+    <classes>
+      <class name="com.subbu.testcases.RegistrationTest">
+        <methods>
+          <include name="fillRegForm" invocation-numbers="3 4"/>
+          <include name="getBrowser"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.subbu.testcases.RegistrationTest -->
+    </classes>
+  </test> <!-- Data Driven Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Suite] -->

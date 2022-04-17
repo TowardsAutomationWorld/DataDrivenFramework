@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Sample Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FireFox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.sample.test.FirstTestNGClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="enterFirstName"/>
+          <include name="afterSUite"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyRegPageLanding"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sample.test.FirstTestNGClass -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Edge Test(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.sample.test.FirstTestNGClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="enterFirstName"/>
+          <include name="afterSUite"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyRegPageLanding"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sample.test.FirstTestNGClass -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.sample.test.FirstTestNGClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="enterFirstName"/>
+          <include name="afterSUite"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyRegPageLanding"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sample.test.FirstTestNGClass -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

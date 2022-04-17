@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-17T01:34:45Z" name="Data Driven Suite" finished-at="2022-04-17T01:35:58Z" duration-ms="73142">
+    <groups>
+    </groups>
+    <test started-at="2022-04-17T01:34:45Z" name="Data Driven Test" finished-at="2022-04-17T01:35:58Z" duration-ms="73142">
+      <class name="com.subbu.testcases.RegistrationTest">
+        <test-method is-config="true" signature="getBrowser()[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:34:45Z" name="getBrowser" finished-at="2022-04-17T01:34:48Z" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:34:48Z" name="beforeClass" finished-at="2022-04-17T01:34:53Z" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="fillRegForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:34:54Z" name="fillRegForm" data-provider="testData" finished-at="2022-04-17T01:35:07Z" duration-ms="13376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subramanyam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mypass@2021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1998]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11 E 75th St]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[75th St]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[60619]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Checking Purpose]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[9848098480]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[044-2348098]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegForm -->
+        <test-method signature="fillRegForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:35:07Z" name="fillRegForm" data-provider="testData" finished-at="2022-04-17T01:35:20Z" duration-ms="12416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malliswari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mypass@2022]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1994]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11833 S Western Ave]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Western Ave]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[60643]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Ofc Address]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[9175171234]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[022-2859372]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Ofc Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegForm -->
+        <test-method signature="fillRegForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:35:20Z" name="fillRegForm" data-provider="testData" finished-at="2022-04-17T01:35:32Z" duration-ms="12110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthikeya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Malli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mypass@2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[18133 Torrence Ave]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Torrence Ave]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lansing]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[60438]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Home Address]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[9849012345]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[080-2340976]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegForm -->
+        <test-method signature="fillRegForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:35:32Z" name="fillRegForm" data-provider="testData" finished-at="2022-04-17T01:35:46Z" duration-ms="13838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Somu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mypass@2024]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[CGI]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[300 E Jackson]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Macomb]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[61455]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Pickup Point]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[8939242384]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[044-8976543]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Pickup Point]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegForm -->
+        <test-method signature="fillRegForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:35:46Z" name="fillRegForm" data-provider="testData" finished-at="2022-04-17T01:35:58Z" duration-ms="12518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhanvitha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Subramanyam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mypass@2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2018]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1051 Oak St]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Oak St]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[North Aurora]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[60542]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Drop Point]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[9701257766]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[040-6539629]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Drop Point]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillRegForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.subbu.testcases.RegistrationTest@3549bca9]" started-at="2022-04-17T01:35:58Z" name="tearDown" finished-at="2022-04-17T01:35:58Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.subbu.testcases.RegistrationTest -->
+    </test> <!-- Data Driven Test -->
+  </suite> <!-- Data Driven Suite -->
+</testng-results>
